@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 150%;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #1e950e;
+    color: #fff;
+    padding: 30px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .social-media {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .social-media a {
+    display: inline-block;
+    margin: 10px 10px;
+    
+  }
+  
+  
+  a {
+    display: inline-block;
+    text-decoration: none;
+    color: #f5f907; /* Change the color to your preference */
+    font-size: 20px; /* Adjust the font size as needed */
+  }
+
+  /* Add any other CSS styles you want for the <i> tag */
+  i {
+    /* Use Font Awesome's default styles or customize as desired */
+    font-size: inherit;
+    margin-left: 4000%;
+  }
+
+
+
+  main {
+    margin: 20px;
+  }
+
+  img {
+    width: 350px;
+    height: auto;
+    margin: 100px;
+    
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+  }
