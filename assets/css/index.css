@@ -14,7 +14,12 @@ body {
     color: #fff;
     padding: 10px;
   }
-  
+  header {
+    border: 15px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, blue, green, yellow, blue,green, yellow, blue);
+  }
+
   nav ul {  
     padding: 0;
     position: relative;
