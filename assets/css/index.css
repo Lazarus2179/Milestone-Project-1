@@ -96,7 +96,7 @@ body {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 97%;
+    width: 96%;
     background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
     padding: 10px;
@@ -115,39 +115,55 @@ body {
       }
       
       h2 {
-        font-size: 40px;
+        font-size: 50px;
         text-align: center;
         margin-bottom: 10px;
       }
-  
+
+ 
+  .underline {
+    text-decoration: underline;
+  }
+</style>
+
       
       .step {
-        font-size: 16px;
+        font-size: 20px;
         display: inline-block;
         margin-right: 10px;
       }
       
+      .step  {
+        background-color: rgb(98, 98, 246);
+      }
+
+      .step:nth-child(2) {
+        background-color: orange;
+      }
+
+      .step:nth-child(3) {
+        background-color: red;
+      }
+      
     
+
+
 
 
 /*--------------------------------------------section-about-us*/
 
-.section-about-us {
-    background-color: #2e2e2c;
-    font-size: 20px;
-    color: #fff;
-    
-}
-
-
-/*--------------------------------------------section-info*/
-
-  .section-info  {
-    font-size: 20px;
-    text-align: center;
-background-color: #f95407;
-
+  .section-about-us  {
+  font-size: 20px;
+  background-color: #1e950e;
+  color: #fff
   }
+
+  /*--------------------------------------------section-info*/
+
+  .section-info h3, p {
+    font-size: 20px;
+  }
+
 
 /*--------------------------------------------footer*/
   
