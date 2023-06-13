@@ -1,21 +1,22 @@
 body {
-    font-family: Arial, sans-serif;
+    
     margin: 0;
     padding: 0;
-    font-size: 150%;
     text-align: center;
-    background-color: #e5e3e3;
+  
   }
 
-  h1 {
-    font-size: 2em; /* Increase the font size as desired */
-    transform: scale(3.5); /* Scale the text without affecting the size of the border */
-    transform-origin: center; /* Set the scaling origin to the center */
-  
+  header h1 {
+   
+    font-size: 60px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+
     padding: 10px;
   }
   
 /*--------------------------------------------Heading*/
+
 
   header {
     background-color: #1e950e;
@@ -36,12 +37,13 @@ body {
   
   nav ul li {
     display: inline-block;
-    margin-right: 80px;
-  
-    
+    margin-right: 80px; 
 }
 
   
+.fa-download {
+  font-family: "Font Awesome 6 Solid";
+}
   nav ul li a {
     color: #fff;
     text-decoration: none;
@@ -59,19 +61,16 @@ body {
   
   .social-media a {
     display: inline-block;
-  width: 30px;
-  height: 30px;
-  margin-left: 10px;
+  width: 40px;
+  height: 50px;
+  margin-left: 1px;
+  color: #f5f907; 
   }
   
-  
-  a {
-    color: #f5f907; /* Change the color to your preference */
-  }
-
 
   i {
-    margin-left: 2000%;
+    margin-left: 2000%; 
+    font-size: 30px
   }
 
 /*--------------------------------------------images*/
@@ -159,7 +158,7 @@ body {
   
   align-items: center;
   justify-content: center;
-  font-size: 10px;
+  font-size: 200px;
 }
 .caption {
   text-decoration: underline;
@@ -169,11 +168,6 @@ body {
   width: 70%;
   height: auto;
 }
-
-
-
-
-
 
 
 /*--------------------------------------------section-about-us*/
@@ -188,9 +182,10 @@ body {
   /*--------------------------------------------section-info*/
 
   .section-info h3, p {
-    font-size: 20px;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 0px; /* Add this line to remove bottom margin */
+    
   }
 
   .container {
@@ -204,9 +199,9 @@ body {
   }
 
   h1 {
-    
+    color: #333;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
   }
 
@@ -219,7 +214,7 @@ body {
 /*--------------------------------------------footer*/
   
   footer {
-    font-size: 15px;
+    font-size: 10px;
     background-color: #333;
     color: #fff;
     padding: 0px;
