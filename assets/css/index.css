@@ -243,7 +243,8 @@ li:hover .download-link {
 
 /*--------------------------------------------footer*/
   
-  .footer {
+  .footer
+  h4 {
     font-size: 20px;
     background-color: #333;
     color: #fff;

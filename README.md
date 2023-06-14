@@ -1,39 +1,127 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Special needs Car Seats
+## <u>About</u>
+**The Special Car Seats** website aims to provide parents and caregivers of children with special needs a convenient platform to browse and enquiry car seats that prioritize postural support, safety, comfort, and functionality.
 
-Welcome,
+ We understand the unique requirements of these children and have curated a collection of car seats designed to meet their specific needs.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+ Our car seats have a wide variety of accessories to give the best possible support such as:
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+ * aluminium backrest
+ * thoracic supports
+ * 5-point harness
+ * adductors
+ * abduction block
+ * swivel base
+ * isofix
+ * footplate
+ * tray
 
-## Codeanywhere Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+ PICTURE OF THE 3 VERSIONS (LAPTOP, PHNE AND TABLET)
 
-`python3 -m http.server`
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+ ## Existing Features
+### <u>Navigation Bar</u>
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+The full responsive navigation header includes links to the Home page, About us, Contact and a link to download a prescription form.
+This section will allow the user to easily navigate and find the required information.
 
-`http_server`
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+![Heading](assests/images/heading.png)
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### <u>The landing page image</u>
+The landing includes the pictures of the three models/sizes Kidsflex car seats with caption explaning the crash-test weight capacities.
 
----
 
-Happy coding!
+
+![Heading](assests/images/kidsflex.png)
+
+
+
+
+### <u>Video section</u>
+Scrolling down the user will find a short explanation about the process of purchasing their own car seat and a video showing all the features/adjustments possible on equipment.
+
+
+### <u>About us</u>
+This section explins who is the company and the purpose of the product.
+
+
+
+### <u>Contact Information</u>
+In contact information you can find the email address, phone number and location map (embed Google Maps) of the company.
+
+
+## Validator Testing
+
+<u>HTML</u>
+Three errors were returned when passing through the official W3C validator but have no impact on the usage or website view.*************
+
+<u>CSS</u>
+No errors were found when passing through the official (Jigsaw) validator
+
+
+
+
+
+## Unfixed Bugs
+***********************
+
+
+
+
+
+
+## Deployment
+***********************
+
+
+## Installation
+Special needs Car Seats is a website that can be accessed directly through any modern web browser. No installation is required.
+
+
+
+## Credits
+
+### <u>Media</u>
+* All images have been taken from [Lazarehab](https://www.lazarehab.com).
+
+* The video has been taken from  [Lazarehab](https://www.lazarehab.com).
+
+* The prescrition form has been taken from  [Lazarehab](https://www.lazarehab.com).
+
+
+### <u>Content</u>
+* All logos have been downloaded from [Font Awesome](www.fontawesome.com).
+
+* Information how to setup readme file taken from [Youtube](www.youtube.com/shorts/4z0l5Kl2Q6E).
+
+* Information how to code emebd Google Maps locations from [Youtube](www.youtube.com/watch?v=4U_AAGHzTok)
+
+* Codes and ideas from my previous project.
+
+* readme template from Github.
+
+
+
+
+
+
+
+## Contributing
+We welcome contributions from the community to help improve _Special needs Car Seats_ and make it even more valuable for individuals seeking addiction recovery resources. 
+
+If you would like to contribute, please follow these guidelines:
+
+1. Fork the repository. 
+
+2. Make your changes or additions. 
+
+3. Test thoroughly to ensure everything is functioning as expected. 
+4. Submit a pull request, clearly describing the changes you have made and why they are beneficial.
+
+5. Please note that all contributions will be subject to review and approval by the _Special needs Car Seats_ team.
