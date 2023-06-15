@@ -26,22 +26,14 @@
 The full responsive navigation header includes links to the Home page, About us, Contact and a link to download a prescription form.
 This section will allow the user to easily navigate and find the required information.
 
-
-
-![Heading](assests/images/heading.png)
-
-
+![Alt Textheading picture](heading.png)
 
 
 ### <u>The landing page image</u>
 The landing includes the pictures of the three models/sizes Kidsflex car seats with caption explaning the crash-test weight capacities.
 
 
-
-![Heading](assests/images/kidsflex.png)
-
-
-
+![Kidsflex car seats picture](Kidsflex.png)
 
 ### <u>Video section</u>
 Scrolling down the user will find a short explanation about the process of purchasing their own car seat and a video showing all the features/adjustments possible on equipment.
@@ -125,3 +117,6 @@ If you would like to contribute, please follow these guidelines:
 4. Submit a pull request, clearly describing the changes you have made and why they are beneficial.
 
 5. Please note that all contributions will be subject to review and approval by the _Special needs Car Seats_ team.
+
+
+[def]: https://1drv.ms/f/s!ApRW1P3tTHOCoQew4euZTscFjbEa?e=YPxAxv

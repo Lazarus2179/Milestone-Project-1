@@ -1,10 +1,11 @@
+
 body {
-    
     margin: 0;
     padding: 0;
     text-align: center;
-  
   }
+
+
 
   header h1 {
    
@@ -18,6 +19,7 @@ body {
 /*--------------------------------------------Heading*/
 
 
+
   header {
     background-color: #1e950e;
     color: #fff;
@@ -26,6 +28,10 @@ body {
     margin-right: 50px;
     margin-top: 15px;
   }
+
+ 
+
+
   header {
     border: 10px solid;
     border-image-slice: 1;
@@ -41,6 +47,15 @@ body {
   nav ul li {
     display: inline-block;
     margin-right: 80px; 
+}
+@media only screen and (max-width: 767px) {
+  nav ul  {
+    padding: 0;
+    position: relative;
+    bottom: -55px;
+    padding-bottom: 40px;
+ 
+  }
 }
 
 
@@ -101,6 +116,57 @@ li:hover .download-link {
 
 
 
+/*---------------------------------------------------------------- modify to fit mobile phone */
+
+@media only screen and (max-width: 767px) {
+  body {
+    /* CSS rules for the specified screen size */
+    /* Example: Modify the font size for body */
+    font-size: 14px;
+  }
+
+  header h1 {
+    /* Example: Modify the font size for header h1 */
+    font-size: 30px;
+  }
+
+  header {
+    /* Example: Modify the margin for header */
+    margin-left: 40px;
+    margin-right: 20px;
+  }
+
+  nav ul li {
+    /* Example: Modify the margin-right for nav ul li */
+    margin-right: 40px;
+  }
+
+  nav ul li a {
+    /* Example: Modify the font size for nav ul li a */
+    font-size: 16px;
+  }
+
+  .social-media a i {
+    /* Example: Modify the font size for social media icons */
+    font-size: 15px;
+  }
+
+  .resized-image {
+    /* Example: Modify the width for resized images */
+    width: 250px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------images*/
 
   main {
@@ -111,6 +177,20 @@ li:hover .download-link {
     width: 350px;
     height: auto;
   }
+  
+  @media (max-width: 767px) {
+    img {
+     
+      width: 400px;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      margin-bottom: -35px;
+      margin-left: 100px;
+    }
+    }
+  
+
   section {
     display: flex;
     justify-content: center;
@@ -139,10 +219,20 @@ li:hover .download-link {
     font-size: 14px;
   }
 
-  .resized-image {
-    width: 300px; /* Adjust the width to your desired size */
-    height: auto ; /* Maintain the aspect ratio by setting height to auto */
+
+
+  @media (max-width: 767px) {
+    .photo-caption .caption {
+      display: none;
+    }
   }
+  
+
+
+
+
+
+
   
 /*--------------------------------------------section-assessments*/
 .section-assessments {
@@ -154,6 +244,13 @@ li:hover .download-link {
         font-size: 50px;
         text-align: center;
         margin-bottom: 10px;
+      }
+      @media only screen and (max-width: 767px) {
+         h2 {
+          font-size: 30px;
+          text-align: center;
+          margin-bottom: 10px;
+         }
       }
 
  
@@ -181,9 +278,12 @@ li:hover .download-link {
         background-color: red;
       }
       
+
+
+
+
  /*--------------------------------------------section-video*/ 
  .video-caption {
-  
   align-items: center;
   justify-content: center;
   font-size: 200px;
@@ -192,10 +292,43 @@ li:hover .download-link {
   text-decoration: underline;
 }
 
+@media only screen and (max-width: 767px) {
+  .video-caption {
+    align-items: center;
+    justify-content: center;
+    font-size: 2px;
+  }
+}
+
 .video video {
   width: 70%;
   height: auto;
 }
+
+@media only screen and (max-width: 767px) {
+  .video video {
+    width: 90%;
+    height: auto;
+  }
+}
+
+
+.step {
+ font-size: 30px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .step {
+    font-size: 20px;
+     display: inline-block;
+     margin-right: 15px;
+     margin-left: 15px;
+   }
+  }
 
 
 /*--------------------------------------------section-about-us*/
@@ -207,7 +340,21 @@ li:hover .download-link {
   margin-bottom: 20px;
   margin-left: 50px;
   margin-right: 50px;
+  padding: 20px;
   }
+
+  @media only screen and (max-width: 767px) {
+    .section-about-us  {
+      font-size: 20px;
+      background-color: #1e950e;
+      color: #fff;
+      margin-bottom: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+      padding: 25px;
+      
+      }
+    }
 
   /*--------------------------------------------section-info*/
 
@@ -240,6 +387,13 @@ li:hover .download-link {
     height: 500px;
     filter: invert(100%);
   }
+
+  @media only screen and (max-width: 767px) {
+    iframe {
+      width: 90%;
+      height: 500px;
+      filter: invert(100%);}
+    }
 
 /*--------------------------------------------footer*/
   
