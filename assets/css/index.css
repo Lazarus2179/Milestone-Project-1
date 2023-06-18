@@ -15,6 +15,8 @@ body {
 
     padding: 10px;
   }
+
+
   
 /*--------------------------------------------Heading*/
 
@@ -39,21 +41,26 @@ body {
   }
 
   nav ul {  
-    padding: 0;
+    
     position: relative;
     bottom: -55px;
   }
   
   nav ul li {
     display: inline-block;
-    margin-right: 80px; 
+    margin-right: 80px;   
 }
+
+
+
+
 @media only screen and (max-width: 767px) {
   nav ul  {
     padding: 0;
     position: relative;
     bottom: -55px;
     padding-bottom: 40px;
+    text-align: center;
  
   }
 }
@@ -177,6 +184,8 @@ li:hover .download-link {
     width: 350px;
     height: auto;
   }
+
+  
   
   @media (max-width: 767px) {
     img {
@@ -219,6 +228,29 @@ li:hover .download-link {
     font-size: 14px;
   }
 
+  @media only screen and (min-width: 481px) and (max-width: 1024px) {
+    .photo-caption .caption {
+      position: static;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      padding: 10px;
+      font-size: 14px;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 767px) {
+    .photo-caption .caption {
+     
+      margin-top: 100px;
+      width: 96%;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      padding: 10px;
+      font-size: 14px;
+    }
+  }
 
 
   @media (max-width: 767px) {
@@ -321,6 +353,9 @@ li:hover .download-link {
 }
 
 
+
+
+
 @media only screen and (max-width: 767px) {
   .step {
     font-size: 20px;
@@ -344,7 +379,7 @@ li:hover .download-link {
   }
 
   @media only screen and (max-width: 767px) {
-    .section-about-us  {
+    .section-about-us {
       font-size: 20px;
       background-color: #1e950e;
       color: #fff;
@@ -365,15 +400,27 @@ li:hover .download-link {
     
   }
 
+
   .container {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     align-items: center;
   justify-content: center;
-  flex-direction: column ;
   margin-top:-140px; /* Adjust this value to reduce the space */
   }
+
+  @media only screen and (min-width: 481px) and (max-width: 1024px) {
+    .container {
+      width: 100%;
+      
+      display: flex;
+      align-items: center;
+    justify-content: center;
+    margin-bottom:-150px; /* Adjust this value to reduce the space */
+    }
+  }
+
 
   h1 {
     color: #333;
