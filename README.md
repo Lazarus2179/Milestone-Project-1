@@ -61,7 +61,7 @@ No errors were found when passing through the official (Jigsaw) validator
 
 
 ## Unfixed Bugs
-***********************
+No bugs found
 
 
 
@@ -118,5 +118,3 @@ If you would like to contribute, please follow these guidelines:
 
 5. Please note that all contributions will be subject to review and approval by the _Special needs Car Seats_ team.
 
-
-[def]: https://1drv.ms/f/s!ApRW1P3tTHOCoQew4euZTscFjbEa?e=YPxAxv
