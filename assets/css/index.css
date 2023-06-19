@@ -438,6 +438,7 @@ li:hover .download-link {
     width: 80%;
     height: 500px;
     filter: invert(100%);
+    margin-top: 30px;
   }
 
   @media only screen and (max-width: 767px) {
