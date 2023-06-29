@@ -395,6 +395,44 @@ li:hover .download-link {
       
       }
     }
+  /*--------------------------------------------section-customer review*/
+
+  .reviews-container {
+    display: flex;
+    background-color: grey
+   
+  }
+  
+  .review {
+    flex: 1;
+   
+    margin-right: 50px;
+    margin-left: 50px;
+      
+     
+  }
+
+
+
+
+
+  /*--------------------------------------------section-about the product*/
+
+
+    #about-the-product {
+      background-color: rgb(220, 185, 29);
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+    ul {
+      list-style-position: inside;
+      padding-left: 0;
+    }
+    
+    ul li {
+      margin-left: 20px;
+      text-align: left;
+    }
 
   /*--------------------------------------------section-info*/
 

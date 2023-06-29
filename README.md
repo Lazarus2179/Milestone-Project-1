@@ -16,11 +16,38 @@
  * footplate
  * tray
 
-![Alt browser picture](browser.png)
-![Alt ipad picture](ipad.png)
-![Alt iphone picture](iphone.png)
- PICTURE OF THE 3 VERSIONS (LAPTOP, PHNE AND TABLET)
 
+
+## Project goals
+
+The primary goal of Special needs car seats is to provide a clean, intuitive, and accessible website to provide information for the users/clients about supportive car seats for children with special needs.
+This website has two target audiences, the first one are the parents/relatives of children with special needs and the second one are the Healthcare professionals that might prescribe this kind of equipment.
+
+
+## User needs
+
+* Finding information about the product.
+* Finding contacts to get in touch with the seller.
+* Watching pictures of the product.
+* Be aware of all the features and accessories available for each car seat.
+* Get access the prescription form.
+* Finding information about shipping and delivery.
+* Know more about the company.
+* Understanding how to buy the product.
+
+## Developer goals
+* Build a user-friendly and intuitive website interface for easy navigation and browsing of car seat products.
+* Develop a responsive design that adapts seamlessly to different devices and screen sizes, ensuring a consistent experience for users.
+* Integrate effective search functionality to enable users to find specific car seat models based on various criteria such model, size, safety features, etc.
+* Incorporate a customer review and rating system to provide social proof and assist customers in making informed purchasing decisions.
+* Integrate social media sharing features to allow users to share product details and reviews with their networks.
+
+## Business goals
+* Increase online sales of car seats by providing a convenient and accessible platform for customers to browse and purchase products.
+* Build a strong brand reputation and establish credibility in the car seat market.
+* Expand the customer base by targeting a wide range of consumers, including parents, caregivers, and businesses in need of car seats.
+* Offer a diverse range of car seat options to cater to different budgets, preferences, and safety requirements.
+* Provide detailed product information, including safety features, specifications, and installation guidelines, to educate customers and build trust.
 
  ## Existing Features
 ### <u>Navigation Bar</u>
@@ -75,7 +102,7 @@ No bugs found
 
 
 ## Installation
-Special needs Car Seats is a website that can be accessed directly through any modern web browser. No installation is required.
+Special needs car seats is a website that can be accessed directly through any modern web browser. No installation is required.
 
 
 
@@ -107,7 +134,7 @@ Special needs Car Seats is a website that can be accessed directly through any m
 
 
 ## Contributing
-We welcome contributions from the community to help improve _Special needs Car Seats_ and make it even more valuable for individuals seeking addiction recovery resources. 
+We welcome contributions from the community to help improve _Special needs car seats_ and make it even more valuable for individuals seeking addiction recovery resources. 
 
 If you would like to contribute, please follow these guidelines:
 
@@ -120,3 +147,6 @@ If you would like to contribute, please follow these guidelines:
 
 5. Please note that all contributions will be subject to review and approval by the _Special needs Car Seats_ team.
 
+![Alt browser picture](browser.png)
+![Alt ipad picture](ipad.png)
+![Alt iphone picture](iphone.png)
