@@ -16,7 +16,9 @@
  * footplate
  * tray
 
-
+![Alt browser picture](browser.png)
+![Alt ipad picture](ipad.png)
+![Alt iphone picture](iphone.png)
  PICTURE OF THE 3 VERSIONS (LAPTOP, PHNE AND TABLET)
 
 
