@@ -7,11 +7,9 @@ body {
 
 
   header h1 {
-   
     font-size: 60px;
     font-family: Arial, sans-serif;
     color: #fff;
-
     padding: 10px;
   }
 
@@ -28,14 +26,13 @@ body {
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 15px;
-  }
-
-
-  header {
     border: 10px solid;
     border-image-slice: 1;
     border-image-source: linear-gradient(to right, blue, green, yellow, blue,green, yellow, blue);
   }
+
+
+  
 
   nav ul {  
     
@@ -135,7 +132,7 @@ li:hover .download-link {
   }
   
   .photo-caption .caption {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     width: 96%;
@@ -227,7 +224,7 @@ li:hover .download-link {
  /* Styles for the customer reviews section */
 #customer-reviews {
   padding: 20px;
-  background-color: #f2f2f2;
+  background-color:white;
 }
 
 /* Styles for the section heading */
@@ -304,12 +301,20 @@ li:hover .download-link {
 
   /*--------------------------------------------section-info*/
 
-  .section-info h3, p {
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 0px; /* Add this line to remove bottom margin */
-    
+  .section-info h2 {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif
+    margin-bottom: 0px;
+    text-decoration: underline;
   }
+  
+  .section-info p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+  }
+  
+
 
 
   .container {
@@ -322,8 +327,6 @@ li:hover .download-link {
   }
 
 
-
-
   h1 {
     color: #333;
     margin-bottom: 0px;
@@ -332,12 +335,15 @@ li:hover .download-link {
   }
 
   iframe {
-    width: 80%;
-    height: 500px;
+    width: 1050px;
+    height: auto a;
     filter: invert(100%);
-    margin-top: 30px;
+    margin-top: 15px;
+
   }
 
+
+  
 
 /*--------------------------------------------footer*/
   
@@ -360,103 +366,195 @@ li:hover .download-link {
 /*--------------------------------------------media*/
 /*------------------------------------------------------------------------------------------------------------*/
 
+ 
 
-  @media only screen and (max-width: 767px) {
-    nav ul  {
-      padding: 0;
-      position: relative;
-      bottom: -55px;
-      padding-bottom: 40px;
-      text-align: center;
-   
-    }
+
+
+/* Medium devices */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+
+  header h1 {
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    padding: 10px;
+  }
+  }
   
   
+  /* Medium devices */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+  nav ul {  
+    bottom: 10px;
+  }
   
-  @media only screen and (max-width: 767px) {
-    body {
-      /* CSS rules for the specified screen size */
-      /* Example: Modify the font size for body */
-      font-size: 14px;
-    }
+  nav ul li {
+    display: flexbox;
+    margin-right: 10px;   
+  }
   
-    header h1 {
-      /* Example: Modify the font size for header h1 */
-      font-size: 30px;
-    }
   
-    header {
-      /* Example: Modify the margin for header */
-      margin-left: 40px;
-      margin-right: 20px;
-    }
-  
-    nav ul li {
-      /* Example: Modify the margin-right for nav ul li */
-      margin-right: 40px;
-    }
-  
-    nav ul li a {
-      /* Example: Modify the font size for nav ul li a */
-      font-size: 16px;
-    }
-  
-    .social-media a i {
-      /* Example: Modify the font size for social media icons */
-      font-size: 15px;
-    }
-  
-    .resized-image {
-      /* Example: Modify the width for resized images */
-      width: 250px;
-    }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 0;
+  }
   }
   
   
   
-   
-    @media (max-width: 767px) {
-      img {
-       
-        width: 400px;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        margin-bottom: -35px;
-        margin-left: 100px;
-      }
-      }
+  /* Small devices */
+  @media only screen and (max-width: 600px) {
+  
+    header h1 {
+      font-size: 25px;
+      font-family: Arial, sans-serif;
+      color: #fff;
+      padding: 10px;
+    }
+    }
+  
+  /* Small devices */
+  @media only screen and (max-width: 600px) {
+   header{
+   margin-left: 15px;
+   margin-right: 15px;
+    }
+
+
+  nav ul {  
+    bottom: 10px;
+  }
+  
+  nav ul li {
+    display: flexbox;
+    margin-right: 10px;   
+  }
   
   
-   @media only screen and (min-width: 481px) and (max-width: 1024px) {
-      .photo-caption .caption {
-        position: static;
-        width: 100%;
-        background-color: rgba(0, 0, 0, 0.7);
-        color: #fff;
-        padding: 10px;
-        font-size: 14px;
-      }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 20px;
+  }
+  }
+
+/*---------------------------------------------------------------------social media icons*/
+
+   /* Small devices */
+   @media only screen and (max-width: 600px) {
+    .social-media {
+      display: flex;
+      justify-content: center; /* Align content to the right */
+    
     }
     
+    .social-media a {
+      margin: 0 5px;
+      color: #000;
+      text-decoration: none;
+    }
     
-    @media only screen and (max-width: 767px) {
-      .photo-caption .caption {
-       
-        margin-top: 100px;
-        width: 96%;
-        background-color: rgba(0, 0, 0, 0.7);
-        color: #fff;
-        padding: 10px;
-        font-size: 14px;
-      }
+    .social-media a i {
+      font-size: 30px;
     }
-  
-    @media (max-width: 767px) {
-      .photo-caption .caption {
-        display: none;
-      }
+    
+    .fa-square-facebook:before {
+      content: "\f082";
     }
+    
+    .fa-square-instagram:before {
+      content: "\f16d";
+    }
+    
+    .fa-linkedin:before {
+      content: "\f08c";
+    }
+    
+    .fa-solid.fa-download:before {
+      content: "\f019";
+      /* Add any additional styling properties you desire */
+    }
+      }
+    
+
+  /* Medium devices */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .social-media {
+      display: flex;
+      justify-content: center; /* Align content to the right */
+    
+    }
+    
+    .social-media a {
+      margin: 0 5px;
+      color: #000;
+      text-decoration: none;
+    }
+    
+    .social-media a i {
+      font-size: 30px;
+    }
+    
+    .fa-square-facebook:before {
+      content: "\f082";
+    }
+    
+    .fa-square-instagram:before {
+      content: "\f16d";
+    }
+    
+    .fa-linkedin:before {
+      content: "\f08c";
+    }
+    
+    .fa-solid.fa-download:before {
+      content: "\f019";
+      /* Add any additional styling properties you desire */
+    }
+      }
+/*---------------------------------------------------------------------image*/
+    /* Small devices */
+  @media only screen and (max-width: 600px) {
+img {
+  width: 350px;
+  height: auto;
+ 
+}
+
+
+section {
+  display: inline-table;
+  justify-content: center;
+}
+
+.photo-caption {
+  position: relative;
+  text-align: center;
+  margin: 50px;
+}
+
+.photo-caption img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.photo-caption .caption {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 96%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 10px;
+  font-size: 14px;
+}
+  }
+
+/*------------------------------------------------------video*/
   
    @media only screen and (max-width: 767px) {
            h2 {
@@ -492,7 +590,7 @@ li:hover .download-link {
        margin-left: 15px;
      }
     }
-  
+  /*---------------------------------------------------about-us*/
   
   @media only screen and (max-width: 767px) {
       .section-about-us {
@@ -516,18 +614,44 @@ li:hover .download-link {
       margin-bottom:-150px; /* Adjust this value to reduce the space */
       }
     }
+    /*---------------------------------------------------iframe*/
   
-  
-      }
-      @media only screen and (max-width: 767px) {
+      @media only screen and (max-width: 600px) {
       iframe {
-        width: 90%;
-        height: 500px;
+        width: 100%;
+        height: 150px;
         filter: invert(100%);}
+      } 
+       @media only screen and (max-width: 600px) {
+      .container {
+        width: 100%;
+        height: 25vh;
+        display: flex;
+        align-items: center;
+      justify-content: center;
+       margin-top: 0;
       }
-  
-     
+    }
 
+/* Medium devices */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    iframe {
+      width: 100%;
+      height: 150px;
+      filter: invert(100%);}
+    } 
+    @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .container {
+      width: 100%;
+      height: 25vh;
+      display: flex;
+      align-items: center;
+    justify-content: center;
+     margin-top: 0;
+    }
+  }
+     
+  /*---------------------------------------------------customer-reviews*/
 
 /* Small devices */
 @media only screen and (max-width: 600px) {
@@ -570,9 +694,97 @@ li:hover .download-link {
   }
 
   .review {
-    width: 48%;
+    width: 100%;
     margin-bottom: 15px;
+    font-size: 30px;
+  }
+}
+  /*---------------------------------------------------about-the-product*/
+
+/* Small devices */
+@media only screen and (max-width: 600px) {
+  #about-the-product {
+    background-color: rgb(220, 185, 29);
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  ul {
+    list-style-position: inside;
+    padding-left: 0;
+    font-size: 20px;
+  }
+  
+  ul li {
+    margin-left: 20px;
+    text-align: left;
+    font-size: 20px;
+  }
+
+
+  h3 {
+    font-size: 20px;
   }
 }
 
+
+  /*---------------------------------------------------info*/
+
+/* Small devices */
+@media only screen and (max-width: 600px) {
+.section-info h2 {
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif
+  margin-bottom: 0px;
+  text-decoration: underline;
+}
+}
+
+/* Medium devices */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .section-info p {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+  }
+  }
+
+  
+
+
+
+  /*---------------------------------------------------footer*/
+
+
+/* Small devices */
+@media only screen and (max-width: 600px) {
+.footer
+h4 {
+  font-size: 15px;
+  background-color: #333;
+  color: #fff;
+
+  text-align: center;
+  margin: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+}
+
+
+/* Medium devices */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+.footer
+h4 {
+  font-size: 15px;
+  background-color: #333;
+  color: #fff;
+
+  text-align: center;
+  margin: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+}
+
+/*------------------------------------------------------------------------------------------------------------*/
 
