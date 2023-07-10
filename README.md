@@ -26,14 +26,14 @@ This website has two target audiences, the first one are the parents/relatives o
 
 ## User needs
 
-* Finding information about the product.
-* Finding contacts to get in touch with the seller.
-* Watching pictures of the product.
+* Find information about the product.
+* Findcontacts to get in touch with the seller.
+* Watch pictures of the product.
 * Be aware of all the features and accessories available for each car seat.
 * Get access the prescription form.
-* Finding information about shipping and delivery.
+* Find information about shipping and delivery.
 * Know more about the company.
-* Understanding how to buy the product.
+* Understand how to buy the product.
 
 ## Developer goals
 * Build a user-friendly and intuitive website interface for easy navigation and browsing of car seat products.
