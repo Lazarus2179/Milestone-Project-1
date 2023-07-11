@@ -80,10 +80,10 @@ In contact information you can find the email address, phone number and location
 ## Validator Testing
 
 <u>HTML</u>
-Three errors were returned when passing through the official W3C validator but have no impact on the usage or website view.*************
+Three errors were returned when passing through the [W3C CSS Validaton Service](https://jigsaw.w3.org/css-validator/) but have no impact on the usage or website view.
 
 <u>CSS</u>
-No errors were found when passing through the official (Jigsaw) validator
+No errors were found when passing through the [W3C CSS Validaton Service](https://jigsaw.w3.org/css-validator/)
 
 
 
@@ -97,7 +97,7 @@ No bugs found
 
 
 
-## Deployment n
+## Deployment 
 ***********************
 
 
