@@ -80,10 +80,10 @@ In contact information you can find the email address, phone number and location
 ## Validator Testing
 
 <u>HTML</u>
-Three errors were returned when passing through the [W3C CSS Validaton Service](https://jigsaw.w3.org/css-validator/) but have no impact on the usage or website view.
+* Three errors were returned when passing through the [W3C CSS Validaton Service](https://jigsaw.w3.org/css-validator/) but have no impact on the usage or website view.
 
 <u>CSS</u>
-No errors were found when passing through the [W3C CSS Validaton Service](https://jigsaw.w3.org/css-validator/)
+* No errors were found when passing through the [W3C CSS Validaton Service](https://jigsaw.w3.org/css-validator/)
 
 
 
@@ -98,7 +98,11 @@ No bugs found
 
 
 ## Deployment 
-***********************
+* The site was deployed to GitHub pages. 
+* The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch.
+* Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 
 ## Installation
