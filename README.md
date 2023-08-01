@@ -55,11 +55,11 @@
 
 ### <u>Wireframes</u>
 
-* [Browser Wireframe](browser.png)
+* [Browser Wireframe](https://github.com/Lazarus2179/Milestone-Project-1/blob/main/assets/images/browser.png)
 
-* [Ipad Wireframe](ipad.png) 
+* [Ipad Wireframe](https://github.com/Lazarus2179/Milestone-Project-1/blob/main/assets/images/ipad.png) 
 
-* [Iphone Wireframe](iphone.png)
+* [Iphone Wireframe](https://github.com/Lazarus2179/Milestone-Project-1/blob/main/assets/images/iphone.png)
 
 
  # Existing Features
@@ -73,19 +73,19 @@
 * The full responsive navigation header includes links to the Home page, About us, Contact and a link to download a prescription form.
 This section will allow the user to easily navigate and find the required information.
 
-![Alt Textheading picture](heading.png)
+![Alt Textheading picture](assets/images/heading.png)
 
 
 ### <u>The landing page image</u>
 * The landing includes the pictures of the three models/sizes Kidsflex car seats with caption explaning the crash-test weight capacities.
 
 
-![Kidsflex car seats picture](kidsflex.png)
+![Kidsflex car seats picture](assets/images/kidsflex.png)
 
 ### <u>Video section</u>
 Scrolling down the user will find a short explanation about the process of purchasing their own car seat and a video showing all the features/adjustments possible on equipment.
 
-![video section](video-section.png)
+![video section](assets/images/video-section.png)
 
 ### <u>About us</u>
 This section explians who is the company and the purpose of the product.
