@@ -99,17 +99,19 @@ This section explians who is the company and the purpose of the product.
 In contact information you can find the email address, phone number and location map (embed Google Maps) of the company.
 
 # Frameworks, Libraries & Programs Used
-* Bootstrap 4.4.1:
 
-* Hover.css:
 
-* Google Fonts:
+* [Bootstrap 4.4.1](https://blog.getbootstrap.com/2019/11/28/bootstrap-4-4-1/)
 
-* Font Awesome:
+* [Hover.css](https://www.w3schools.com/CSSref/sel_hover.php)
 
-* GitHub
+* [Google Fonts](https://fonts.google.com/)
 
-* Balsamiq:
+* [Font Awesome](https://fontawesome.com/)
+
+* [GitHub](https://github.com/)
+
+* [Balsamiq](https://balsamiq.com/)
 
 # Validator Testing
 
