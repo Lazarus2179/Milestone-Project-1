@@ -171,16 +171,15 @@ Special needs car seats is a website that can be accessed directly through any m
 
 
 ### <u>Content</u>
-* All logos have been downloaded from [Font Awesome](www.fontawesome.com).
+* All logos have been downloaded from [Font Awesome](https://fontawesome.com/).
 
-* Information how to setup readme file taken from [Youtube](www.youtube.com/shorts/4z0l5Kl2Q6E).
+* Information how to setup readme file taken from [Visual Studio Code](https://youtube.com/shorts/4z0l5Kl2Q6E?feature=share).
 
-* Information how to code emebd Google Maps locations from [Youtube](www.youtube.com/watch?v=4U_AAGHzTok)
+* Information how to embed Google Maps locations from [GreatStack](https://youtu.be/4U_AAGHzTok)
 
 * Coding ideas from [Code Institute Course](https://codeinstitute.net/), [w3schools](https://www.w3schools.com/)
 
-* readme template from Github.
-
+* readme template from [Github](https://github.com/)
 
 # Acknowledgements
 * My Mentor for continuous helpful feedback.
