@@ -27,16 +27,28 @@
 * This website has two target audiences, the first one are the parents/relatives of children with special needs and the second one are the Healthcare professionals that might prescribe this kind of equipment.
 
 
-### <u>User needs</u>
+### <u>User stories</u>
+#### First time visitor goals:
 
-* Find information about the product.
-* Findcontacts to get in touch with the seller.
-* Watch pictures of the product.
-* Be aware of all the features and accessories available for each car seat.
-* Get access the prescription form.
-* Find information about shipping and delivery.
-* Know more about the company.
-* Understand how to buy the product.
+* As a first time visitor, I want to find information about the product. and know more about the company.
+
+* As a first time visitor, I want to find contacts to get in touch with the seller.
+
+* As a first time visitor, I want to watch pictures of the product.
+
+* As a first time visitor, I can download the prescription form to understand about all the 
+features and accessories available for each car seat.
+
+* As a first time visitor, I want to find information about shipping and delivery.
+
+* As a first time visitor, I want to understand how to buy the product.
+
+#### Returning visitor goals:
+
+* As a returning visitor, I want to find links to the company's social media profiles, so that I can connect with them through social media.
+
+* As a returning time visitor, I want to be able to access from any browsers: Chrome, Firefox, Safari, Edge and any devices Mac, Windows, Android, iPhone or tablet.
+
 
 ### <u>Developer goals</u>
 * Build a user-friendly and intuitive website interface for easy navigation and browsing of car seat products.
@@ -116,10 +128,12 @@ In contact information you can find the email address, phone number and location
 # Validator Testing
 
 <u>HTML</u>
-* 1 error has returned when passing through the [W3C CSS Validaton Service](https://jigsaw.w3.org/css-validator/) but have no impact on the usage or website view.
+* No errors has returned when passing through the [W3C CSS Validaton Service](https://jigsaw.w3.org/css-validator/)
 
 <u>CSS</u>
 * No errors were found when passing through the [W3C CSS Validaton Service](https://jigsaw.w3.org/css-validator/)
+
+
 
 
 # Unfixed Bugs
