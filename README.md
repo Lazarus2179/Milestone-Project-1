@@ -134,6 +134,8 @@ In contact information you can find the email address, phone number and location
 * No errors were found when passing through the [W3C CSS Validaton Service](https://jigsaw.w3.org/css-validator/)
 
 
+* Lighthouse test
+![Lighthouse](assets/images/Lighthouse.png)
 
 
 # Unfixed Bugs
