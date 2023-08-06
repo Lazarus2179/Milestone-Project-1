@@ -135,7 +135,7 @@ In contact information you can find the email address, phone number and location
 
 
 * Lighthouse test
-![Lighthouse](assets/images/Lighthouse.png)
+![Lighthouse](assets/images/lighthouse.png)
 
 
 # Unfixed Bugs
